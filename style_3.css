@@ -69,7 +69,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 20%;
-    height: 200px;
+    height: 250px;
     max-width: 170px;
     background-color: #0097a7;
     border-radius: 10%;
@@ -156,7 +156,7 @@ main{
 .about-img img {
     width: 100%;
     height: 100%;
-    border-radius: 80%;
+    border-radius: 100%;
 }
 
 .about{
