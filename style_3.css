@@ -323,3 +323,7 @@ input[type=radio]{
     width: 100%;
     opacity: 0.9;
   }
+
+  .btn_submit:hover {
+    opacity:1;
+  }
