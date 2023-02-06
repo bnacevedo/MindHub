@@ -36,9 +36,226 @@
                 <a href="./contact.html">Contact</a>
              </nav>
              
-             <main class="main_registration">
+             <main class="main_register">
+
+                <form action="./show_data.html" method="get">
+                        <fieldset>
+    
+                            <label for="First_Name">
+                                <span>Player's First Name:</span>
+                                <input type="text" placeholder="Enter the First Name" name="First_Name" id="First_Name">
+                            </label>
+    
+                            <label for="Last_Name">
+                                <span>Last Name: </span>
+                                <input type="text" placeholder="Enter the Last Name" name="Last_Name" id="Last_Name">
+                            </label>
+    
+                            <br>
+    
+                            <label for="Street_Address">
+                                <span>Street Address: </span>
+                                <input type="text" placeholder="e.g: 1829 Kennedy Dr" name="Street_Address" id="Street_Address">
+                            </label>
+    
+                            <br>
+    
+                            <label for="City">
+                                <span>City: </span>
+                                <input type="text" placeholder="e.g: North Chicago" name="City" id="City">
+                            </label>
+    
+                            <label for="Zip_Code">
+                                <span>Zip Code: </span>
+                                <input type="number" placeholder="e.g: 60064" name="Zip_Code" id="Zip_Code">
+                            </label>
+    
+                            <br>
+
+                            <span>Birth Date (mm/dd/yyyy): </span>
+    
+                            <label for="Birth_Date">
+                                <input type="date" name="Birth_Date" id="Birth_Date">
+                            </label>
+    
+                            <br>
+    
+                            <span>Gender: </span>
+
+                            <br>
+
+                            <label for="Female">
+                                Female
+                                <input type="radio" name="Gender" id="Female" value="Female">
+                            </label>
+    
+                            <label for="Male">
+                                Male
+                                <input type="radio" name="Gender" id="Male" value="Male">
+                            </label>
+    
+                            <br>
+                            
+                            <span>Grade:</span>
+                            <br>
+
+                            <label for="Pre-School">
+                                Pre-School: 
+                                <input type="radio" name="Grade" id="Pre-School" value="Pre-School">
+                            </label>
+    
+                            <label for="1st">
+                                1st
+                                <input type="radio" name="Grade" id="1st" value="1st">
+                            </label>
+    
+                            <label for="2nd">
+                                2nd
+                                <input type="radio" name="Grade" id="2nd" value="2nd">
+                            </label>
+    
+                            <label for="3rd">
+                                3rd
+                                <input type="radio" name="Grade" id="3rd" value="3rd">
+                            </label>
+    
+                            <label for="4th">
+                                4th
+                                <input type="radio" name="Grade" id="4th" value="4th">
+                            </label>
+    
+                            <label for="5th">
+                                5th
+                                <input type="radio" name="Grade" id="5th" value="5th">
+                            </label>
+    
+                            <br>
+
+                            <span>Wich elementary school do you live near?</span>
+
+                            <br>
+    
+                            <label for="closest_school">
+                                <select name="closest_school" id="closest_school">
+                                    <option value="">Select a School</option>
+                                    <option value="Katzenmaier">AJ Katzenmaier</option>
+                                    <option value="Greenbay">Greenbay</option>
+                                    <option value="Yeager">Howard A Yeager</option>
+                                    <option value="Hart">Marjorie P Hart</option>
+                                    <option value="North">North Elementary</option>
+                                    <option value="South">South Elementary</option>
+                                </select>
+                            </label>
+    
+                            <br>
+                            <br>
+
+                            <span>What position(s) do you normally play? (check all that apply)</span>
+
+                            <br>
+                            <br>
+    
+                            <label for="Forward">
+                                Forward
+                                <input type="checkbox" name="position" id="Forward" value="Forward">
+                            </label>
+    
+                            <label for="Midfield">
+                                Midfield
+                                <input type="checkbox" name="position" id="Midfield" value="Midfield">
+                            </label>
+    
+                            <br>
+                            <label for="Defense">
+                                Defense
+                                <input type="checkbox" name="position" id="Defense" value="Defense">
+                            </label>
+    
+                            <label for="Goalkeeper">
+                                Goalkeeper
+                                <input type="checkbox" name="position" id="Goalkeeper" value="Goalkeeper">
+                            </label>
+    
+                            <br>
+                            <br>
+
+                            <span> Uniform Size:</span>
+
+                            <br>
+                            <br>
+    
+                            <label for="Youth_Small">
+                                Youth Small
+                                <input type="radio" name="uniform" id="Youth_Small" value="Youth_Small">
+                            </label>
+    
+                            <label for="Medium">
+                                Medium
+                                <input type="radio" name="uniform" id="Medium" value="Medium">
+                            </label>
+    
+                            <label for="Youth_Medium">
+                                Youth Medium
+                                <input type="radio" name="uniform" id="Youth_Medium" value="Youth_Medium">
+                            </label>
+    
+                            <label for="Large">
+                                Large
+                                <input type="radio" name="uniform" id="Large" value="Large">
+                            </label>
+    
+                            <label for="Youth_Lare">
+                                Youth Lare
+                                <input type="radio" name="uniform" id="Youth_Lare" value="Youth_Lare">
+                            </label>
+    
+                            <label for="Extra_Large">
+                                Extra Large
+                                <input type="radio" name="uniform" id="Extra_Large" value="Extra_Large">
+                            </label>
+    
+                            <label for="Small">
+                                Small
+                                <input type="radio" name="uniform" id="Small" value="Small">
+                            </label>
     
     
+                        </fieldset>
+    
+                        <fieldset>
+                            <legend>Permission to Play</legend>
+    
+                            <p>
+                            l, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL).
+                            In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities,
+                            I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers,including the facilities used for practices and games, 
+                            against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation
+                            By signing below, I herebyagree andauthorizethe above.ln addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.
+                            </p>
+    
+                            <br>
+                            
+                            <label>
+                                Parent/GuardianSignature:
+                                <input type="text" name="permission" id="permission_name" >
+                            </label>
+    
+                            <br>
+    
+                            <label>
+                                Date:
+                                <input type="date" name="permission" id="permission_date" >
+                             </label>
+    
+                            <br>
+    
+                        </fieldset>
+
+                        <br>
+
+                        <input class="btn_submit" type="submit"  value="Enviar Formulario">
+                </form>
+
              </main>
 
         </div>

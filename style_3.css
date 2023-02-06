@@ -59,8 +59,9 @@ header h1{
 
 .columnas{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 nav{
@@ -86,10 +87,8 @@ nav a {
 
 
 main{
-    height: 800px;
     max-width: 1200px;
     width: 80%;
-    margin-left: 40px;
 }
 
 /* ESTILO TITULO DE PAGINAS */
@@ -189,10 +188,10 @@ main{
     background-image: url(./design1_image1.jpg);
     background-size: cover;
     border-radius: 6%;
+
 }
 
 .rules-container {
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,6 +200,7 @@ main{
     border-radius: 6%;
     padding: 15px;
 }
+
 .rules-list{
     list-style: none;
     margin-top:50px ; 
@@ -235,6 +235,7 @@ ol ::marker{
 }
 
 .schedule{
+    width: 80%;
     margin-top: 20px;
     margin-bottom: 20px;
     border-collapse: collapse;
@@ -252,5 +253,52 @@ ol ::marker{
 }
 
 .schedule tbody tr{
-    border-bottom: 2px solid #dddddd;
+    border: 2px solid #dddddd;
 }
+
+.schedule tbody td{
+    border-right: 2px solid #dddddd;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* REGISTER STYLES */
+
+.main_register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main_register form{
+    width: 70%;
+    height: 50%;
+    border:none;
+}
+
+.main_register form fieldset{
+    margin-top: 25px;
+}
+
+.main_register form span{
+    font-weight: bold;
+}
+
+
+input[type=text], input[type=number], input[type=date] {
+    width: 100%;
+    padding: 9px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=radio]{
+    margin: 10px 25px 50px 0;
+}
+
