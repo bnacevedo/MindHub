@@ -127,12 +127,10 @@ main{
 }
 
 .home li{
-    text-align: center;
-    
+    text-align: center; 
 }
 
-/* ESTILO DE LOS TITULOS SECUNDARIOS */
-.section-title{
+.section-title-home{
     font-weight: bold;
     padding-left: 30px;
     background-image: url(star.svg);
@@ -140,6 +138,13 @@ main{
     background-size: 20px 20px;
     background-repeat: no-repeat;
 }
+
+/* ESTILO DE LOS TITULOS SECUNDARIOS */
+.section-title{
+    font-weight: bold;
+}
+
+
 
 .section-container{
     margin-left: 10px;
@@ -309,7 +314,7 @@ input[type=radio]{
 }
 
 .btn_submit {
-    background-color: #04AA6D;
+    background-color: #0097a7;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
