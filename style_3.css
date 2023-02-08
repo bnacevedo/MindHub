@@ -25,9 +25,61 @@ body{
     font-family: 'Krub', sans-serif;
 } 
 
+/* MEDIA */
+
+@media (max-width:400px){
+    nav{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:576px){
+    .home{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home ul{
+        margin-bottom: 20px;
+    }
+
+    .location iframe{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (max-width:767px){
+    nav{
+        margin-bottom:20px;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+    .columnas{
+        display: flex;
+    }
+    
+    main{
+        width: 80%;
+    }
+
+    nav{
+        width: 20%;
+        flex-direction: column;
+        border-radius: 10%;
+        height: 250px;
+        max-width: 170px;
+    }
+}
+    
+
 /*  ESTILO DEL HEADER Y LOGO */
 header{
-    height: 500px;
     width: 100%;
     max-width: 1600px;
     display: flex;
@@ -58,22 +110,18 @@ header h1{
 /* ESTILO MENU/NAVEGADOR */
 
 .columnas{
-    display: flex;
     justify-content: space-evenly;
     width: 100%;
     margin-bottom: 50px;
 }
 
+
+
 nav{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 20%;
-    height: 250px;
-    max-width: 170px;
     background-color: #0097a7;
-    border-radius: 10%;
     border-style:double;
 }
 
@@ -88,7 +136,7 @@ nav a {
 
 main{
     max-width: 1200px;
-    width: 80%;
+
 }
 
 /* ESTILO TITULO DE PAGINAS */
@@ -123,7 +171,6 @@ main{
     align-items: center;
     list-style: none;
     width: auto;
-    margin-right: 20px;
 }
 
 .home li{
@@ -171,9 +218,8 @@ main{
 
 .about{
     display: flex;
-    flex-direction: row;
-    height: 30%;
 }
+
 .about article{
     display: flex;
     flex-direction: column;
